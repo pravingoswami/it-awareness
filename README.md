@@ -22,6 +22,7 @@ A modern, responsive React + TypeScript dashboard for internal IT and staff mana
 ---
 
 ## 📝 Features Completed
+
 - **Dashboard:**
   - Welcome banner
   - Quick summary cards (open tickets, pending tasks, latest updates)
@@ -51,6 +52,7 @@ A modern, responsive React + TypeScript dashboard for internal IT and staff mana
 ---
 
 ## 🤔 Assumptions Made
+
 - Mock API data is sufficient for demo purposes (no real backend)
 - All users have the same permissions (no authentication/authorization)
 - File upload is simulated (no actual file storage)
@@ -59,6 +61,7 @@ A modern, responsive React + TypeScript dashboard for internal IT and staff mana
 ---
 
 ## 🛠️ If I Had More Time
+
 - Add user authentication and role-based access (admin/staff)
 - Implement real backend API integration
 - Add pagination, sorting, and filtering to tables
@@ -69,6 +72,7 @@ A modern, responsive React + TypeScript dashboard for internal IT and staff mana
 ---
 
 ## 📁 Project Structure
+
 - `src/pages/` — Main pages (Dashboard, StaffDirectory, ITRequests, Tickets, ToDoList)
 - `src/components/` — Reusable UI components (DataTable, ActionButton, etc.)
 - `src/store/` — Redux store setup
@@ -81,5 +85,7 @@ A modern, responsive React + TypeScript dashboard for internal IT and staff mana
 ---
 
 ## 📦 Submission
-- [GitHub Repository Link](https://github.com/your-username/ir-management) *(replace with your actual repo URL)*
+
+- [GitHub Repository Link](https://github.com/pravingoswami/it-awareness)
+- [Live Project Link](https://it-awareness.netlify.app/)
 - Or download the zipped folder and follow the setup instructions above.
