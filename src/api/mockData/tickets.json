@@ -1,0 +1,82 @@
+[
+  {
+    "id": 101,
+    "user": "alice@brrmedia.co.uk",
+    "issue": "Wi-Fi Connectivity",
+    "description": "Cannot connect to Wi-Fi.",
+    "status": "Open",
+    "created": "2024-03-28"
+  },
+  {
+    "id": 102,
+    "user": "bob@brrmedia.co.uk",
+    "issue": "Email Not Syncing",
+    "description": "Outlook is not syncing emails.",
+    "status": "In Progress",
+    "created": "2024-03-27"
+  },
+  {
+    "id": 103,
+    "user": "carol@brrmedia.co.uk",
+    "issue": "Printer Offline",
+    "description": "Unable to print documents.",
+    "status": "Resolved",
+    "created": "2024-03-26"
+  },
+  {
+    "id": 104,
+    "user": "david@brrmedia.co.uk",
+    "issue": "Software Installation",
+    "description": "Need Adobe Photoshop installed.",
+    "status": "Open",
+    "created": "2024-03-25"
+  },
+  {
+    "id": 105,
+    "user": "eve@brrmedia.co.uk",
+    "issue": "Password Reset",
+    "description": "Forgot Windows password.",
+    "status": "Resolved",
+    "created": "2024-03-24"
+  },
+  {
+    "id": 106,
+    "user": "frank@brrmedia.co.uk",
+    "issue": "VPN Access",
+    "description": "Cannot connect to VPN.",
+    "status": "In Progress",
+    "created": "2024-03-23"
+  },
+  {
+    "id": 107,
+    "user": "grace@brrmedia.co.uk",
+    "issue": "Monitor Flickering",
+    "description": "Screen flickers intermittently.",
+    "status": "Open",
+    "created": "2024-03-22"
+  },
+  {
+    "id": 108,
+    "user": "henry@brrmedia.co.uk",
+    "issue": "Slow Computer",
+    "description": "Laptop is running very slow.",
+    "status": "Resolved",
+    "created": "2024-03-21"
+  },
+  {
+    "id": 109,
+    "user": "ivy@brrmedia.co.uk",
+    "issue": "Network Drive Missing",
+    "description": "Cannot access shared network drive.",
+    "status": "In Progress",
+    "created": "2024-03-20"
+  },
+  {
+    "id": 110,
+    "user": "jack@brrmedia.co.uk",
+    "issue": "Audio Not Working",
+    "description": "No sound from speakers.",
+    "status": "Open",
+    "created": "2024-03-19"
+  }
+]

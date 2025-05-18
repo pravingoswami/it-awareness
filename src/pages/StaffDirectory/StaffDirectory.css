@@ -1,0 +1,61 @@
+.staff-table-card {
+  border-radius: 20px;
+  background: #fff;
+  padding: 32px;
+  box-shadow: 0 4px 24px 0 rgba(112, 144, 176, 0.08);
+  margin-bottom: 32px;
+  width: 100%;
+  transition: background 0.3s, color 0.3s;
+}
+
+.staff-table-card.dark {
+  background: #111c44;
+  color: #fff;
+  border-radius: 20px !important;
+}
+
+.staff-table-header {
+  color: #A0AEC0;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #E2E8F0;
+  background: transparent;
+}
+
+.staff-table-header.dark {
+  color: #A3AED0;
+  border-bottom: 1px solid #23272b;
+}
+
+.staff-table-row {
+  transition: background 0.2s;
+}
+
+.staff-table-row:hover {
+  background: #f4f7fe;
+}
+
+.staff-table-card.dark .staff-table-row:hover {
+  background: #23272b;
+}
+
+.staff-table td, .staff-table th {
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.staff-table-card.dark .staff-table td,
+.staff-table-card.dark .staff-table th {
+  border-bottom: 1px solid #23272b;
+}
+
+@media (max-width: 900px) {
+  .staff-table-card {
+    padding: 16px;
+  }
+  .staff-table-header {
+    font-size: 0.85rem;
+  }
+  .staff-table td, .staff-table th {
+    padding: 8px;
+  }
+}

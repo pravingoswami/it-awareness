@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "title": "Design dashboard welcome banner",
+        "completed": false
+    },
+    {
+        "id": 2,
+        "title": "Implement staff directory page",
+        "completed": false
+    },
+    {
+        "id": 3,
+        "title": "Create IT request form with file upload",
+        "completed": false
+    },
+    {
+        "id": 4,
+        "title": "Display submitted IT tickets with status",
+        "completed": false
+    },
+    {
+        "id": 5,
+        "title": "Build to-do list with add/edit/delete",
+        "completed": false
+    },
+    {
+        "id": 6,
+        "title": "Show open tickets and pending tasks summary",
+        "completed": false
+    },
+    {
+        "id": 7,
+        "title": "Integrate mock API for staff and tickets",
+        "completed": false
+    },
+    {
+        "id": 8,
+        "title": "Add Google Workspace info to staff cards (bonus)",
+        "completed": false
+    },
+    {
+        "id": 9,
+        "title": "Polish UI with MUI components",
+        "completed": false
+    },
+    {
+        "id": 10,
+        "title": "Test all user flows for dashboard",
+        "completed": false
+    }
+]

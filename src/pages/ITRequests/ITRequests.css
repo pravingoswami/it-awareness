@@ -1,0 +1,97 @@
+.upload-box {
+  border: 2px dashed #7551ff;
+  border-radius: 20px;
+  background: #f4f7fe;
+  padding: 32px 0;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 24px;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.upload-box.dark {
+  background: #23272b;
+  border-color: #7551ff;
+}
+
+.upload-box input[type="file"] {
+  display: none;
+}
+
+.upload-icon {
+  font-size: 48px;
+  color: #422afb;
+  margin-bottom: 12px;
+}
+
+.upload-label {
+  font-weight: 700;
+  color: #422afb;
+  font-size: 1.2rem;
+}
+
+.upload-desc {
+  color: #a0aec0;
+  font-size: 0.95rem;
+}
+
+.upload-box.dark .upload-label {
+  color: #fff !important;
+}
+.upload-box.dark .upload-desc {
+  color: #bfc8db !important;
+}
+
+body[data-theme="dark"] .submit-request-btn,
+.ITRequests-page[data-theme="dark"] .submit-request-btn,
+.submit-request-btn {
+  background: #fff !important;
+  color: #1B254B !important;
+  border: 1.5px solid #fff !important;
+  box-shadow: 0 2px 8px 0 rgba(255,255,255,0.08) !important;
+}
+
+body[data-theme="dark"] .submit-request-btn,
+.ITRequests-page[data-theme="dark"] .submit-request-btn {
+  color: #fff !important;
+  background: #422AFB !important;
+  border: none !important;
+}
+
+body[data-theme="dark"] .submit-request-btn:hover,
+.ITRequests-page[data-theme="dark"] .submit-request-btn:hover {
+  background: #3311DB !important;
+  color: #fff !important;
+}
+
+.swal2-dark {
+  background: #181c24 !important;
+  color: #fff !important;
+}
+.swal2-confirm-dark {
+  background: #232a3b !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+body[data-theme="dark"] .swal2-title,
+body[data-theme="dark"] .swal2-html-container {
+  color: #fff !important;
+}
+
+body[data-theme="dark"] .swal2-popup {
+  background: #181c24 !important;
+}
+
+body[data-theme="dark"] .swal2-confirm {
+  background: #232a3b !important;
+  color: #fff !important;
+}
+
+body[data-theme="dark"] .swal2-confirm:focus {
+  box-shadow: 0 0 0 2px #90caf9 !important;
+}
+
+body[data-theme="dark"] .swal2-icon {
+  color: #fff !important;
+}

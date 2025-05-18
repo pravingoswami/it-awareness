@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Smith",
+    "role": "Video Producer",
+    "email": "alice@brrmedia.co.uk",
+    "status": "active",
+    "lastLogin": "2024-05-15 09:23",
+    "driveUsage": "2.1 GB",
+    "device": "MacBook Pro"
+  },
+  {
+    "id": 2,
+    "name": "Bob Jones",
+    "role": "IT Support",
+    "email": "bob@brrmedia.co.uk",
+    "status": "inactive",
+    "lastLogin": "2024-05-10 17:45",
+    "driveUsage": "1.3 GB",
+    "device": "MacBook Air"
+  },
+  {
+    "id": 3,
+    "name": "Carol White",
+    "role": "HR Manager",
+    "email": "carol@brrmedia.co.uk",
+    "status": "active",
+    "lastLogin": "2024-05-16 08:10",
+    "driveUsage": "3.8 GB",
+    "device": "iMac"
+  },
+  {
+    "id": 4,
+    "name": "David Green",
+    "role": "Finance Analyst",
+    "email": "david@brrmedia.co.uk",
+    "status": "active",
+    "lastLogin": "2024-05-14 14:32",
+    "driveUsage": "2.5 GB",
+    "device": "MacBook Pro"
+  },
+  {
+    "id": 5,
+    "name": "Eve Black",
+    "role": "Marketing Lead",
+    "email": "eve@brrmedia.co.uk",
+    "status": "inactive",
+    "lastLogin": "2024-05-09 11:20",
+    "driveUsage": "1.9 GB",
+    "device": "MacBook Air"
+  },
+  {
+    "id": 6,
+    "name": "Frank Brown",
+    "role": "Developer",
+    "email": "frank@brrmedia.co.uk",
+    "status": "active",
+    "lastLogin": "2024-05-16 10:05",
+    "driveUsage": "4.2 GB",
+    "device": "MacBook Pro"
+  },
+  {
+    "id": 7,
+    "name": "Grace Lee",
+    "role": "Designer",
+    "email": "grace@brrmedia.co.uk",
+    "status": "active",
+    "lastLogin": "2024-05-15 16:40",
+    "driveUsage": "2.7 GB",
+    "device": "iMac"
+  },
+  {
+    "id": 8,
+    "name": "Henry Adams",
+    "role": "QA Engineer",
+    "email": "henry@brrmedia.co.uk",
+    "status": "inactive",
+    "lastLogin": "2024-05-08 13:55",
+    "driveUsage": "1.1 GB",
+    "device": "MacBook Air"
+  },
+  {
+    "id": 9,
+    "name": "Ivy Clark",
+    "role": "Content Writer",
+    "email": "ivy@brrmedia.co.uk",
+    "status": "active",
+    "lastLogin": "2024-05-16 09:50",
+    "driveUsage": "2.0 GB",
+    "device": "MacBook Pro"
+  },
+  {
+    "id": 10,
+    "name": "Jack Wilson",
+    "role": "Support Specialist",
+    "email": "jack@brrmedia.co.uk",
+    "status": "active",
+    "lastLogin": "2024-05-16 08:30",
+    "driveUsage": "1.6 GB",
+    "device": "MacBook Air"
+  }
+]

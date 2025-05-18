@@ -1,0 +1,110 @@
+.tickets-table-card {
+  border-radius: 20px;
+  background: #fff;
+  padding: 32px;
+  box-shadow: 0 4px 24px 0 rgba(112, 144, 176, 0.08);
+  margin-bottom: 32px;
+  width: 100%;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 20px !important;
+}
+
+.tickets-table-card.dark {
+  background: #111c44;
+  color: #fff;
+}
+
+.tickets-table-header {
+  color: #a0aec0;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #e2e8f0;
+  background: transparent;
+}
+
+.tickets-table-header.dark {
+  color: #a3aed0;
+  border-bottom: 1px solid #23272b;
+}
+
+.tickets-table-row {
+  transition: background 0.2s;
+}
+
+.tickets-table-row:hover {
+  background: #f4f7fe;
+}
+
+.tickets-table-card.dark .tickets-table-row:hover {
+  background: #23272b;
+}
+
+.tickets-table td,
+.tickets-table th {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.tickets-table-card.dark .tickets-table td,
+.tickets-table-card.dark .tickets-table th {
+  border-bottom: 1px solid #23272b;
+}
+
+.tickets-status-select {
+  min-width: 140px;
+  max-width: 140px;
+  width: 140px;
+  border-radius: 8px;
+  background: #f4f7fe;
+  color: #1b254b;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+}
+
+.tickets-table-card.dark .tickets-status-select {
+  background: #23272b !important;
+  color: #fff !important;
+  border: 1px solid #232a3b !important;
+}
+
+.tickets-status-select.open {
+  background: #ebf8ff !important;
+  color: #1976d2 !important;
+}
+
+.tickets-status-select.inprogress {
+  background: #feefee !important;
+  color: #ff9800 !important;
+}
+
+.tickets-status-select.resolved {
+  background: #e6faf5 !important;
+  color: #01b574 !important;
+}
+
+.tickets-table-card.dark .tickets-status-select.open {
+  background: #232a3b !important;
+  color: #90caf9 !important;
+}
+
+.tickets-table-card.dark .tickets-status-select.inprogress {
+  background: #2d1a1a !important;
+  color: #ffb74d !important;
+}
+
+.tickets-table-card.dark .tickets-status-select.resolved {
+  background: #1a2d23 !important;
+  color: #01b574 !important;
+}
+
+@media (max-width: 900px) {
+  .tickets-table-card {
+    padding: 16px;
+  }
+  .tickets-table-header {
+    font-size: 0.85rem;
+  }
+  .tickets-table td,
+  .tickets-table th {
+    padding: 8px;
+  }
+}

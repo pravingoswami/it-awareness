@@ -1,0 +1,194 @@
+.responsive-layout-root {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f7fe;
+  transition: background 0.2s;
+}
+
+.responsive-layout-root.dark {
+  background: #0b1437;
+}
+
+.sidebar-mobile-appbar {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 1301;
+  display: none;
+}
+
+.sidebar-mobile-open .sidebar-mobile-appbar {
+  display: none !important;
+}
+
+.responsive-layout-main {
+  flex-grow: 1;
+  padding: 24px;
+  width: 100%;
+  min-height: 100vh;
+  background: transparent;
+  transition: background 0.2s;
+}
+
+.sidebar-root {
+  height: 100vh;
+  background: var(--mui-palette-background-paper, #fff);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.08);
+  border: none;
+  min-width: 240px;
+  max-width: 260px;
+  transition: background 0.2s;
+}
+
+.responsive-layout-root.dark .sidebar-root {
+  background: #111c44 !important;
+  color: #fff;
+}
+
+.sidebar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.2rem 0 1.2rem 0;
+}
+
+.sidebar-logo img {
+  max-height: 38px;
+  max-width: 80%;
+  object-fit: contain;
+  filter: none;
+}
+
+.sidebar-nav {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-top: 0.5rem;
+}
+
+.sidebar-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  padding: 0.85rem 1.5rem 0.85rem 1.5rem;
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: var(--mui-palette-text-secondary, #7b809a);
+  border-radius: 12px;
+  text-decoration: none;
+  transition: background 0.18s, color 0.18s;
+  cursor: pointer;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.responsive-layout-root.dark .sidebar-nav-link {
+  color: #bfc8db;
+}
+
+.sidebar-nav-link.selected,
+.sidebar-nav-link:hover {
+  background: var(--mui-palette-primary-light, #e3f0ff);
+  color: var(--mui-palette-primary-main, #1976d2);
+  box-shadow: none;
+  transition: none;
+}
+
+.responsive-layout-root.dark .sidebar-nav-link.selected,
+.responsive-layout-root.dark .sidebar-nav-link:hover {
+  background: #232a3b;
+  color: #90caf9;
+}
+
+.sidebar-divider {
+  margin: 1.2rem 0 1.2rem 0;
+  border: none;
+  border-top: 1.5px solid var(--mui-palette-divider, #e3e6ef);
+}
+
+.responsive-layout-root.dark .sidebar-divider {
+  border-top: 1.5px solid #232a3b;
+}
+
+.sidebar-theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem 0 1.5rem 0;
+  gap: 0.7rem;
+}
+
+.sidebar-theme-toggle .MuiIconButton-root {
+  color: var(--mui-palette-primary-main, #1976d2);
+  background: var(--mui-palette-primary-light, #e3f0ff);
+  border-radius: 50%;
+  transition: background 0.18s;
+}
+
+.responsive-layout-root.dark .sidebar-theme-toggle .MuiIconButton-root {
+  color: #90caf9;
+  background: #232a3b;
+}
+
+.sidebar-theme-toggle .MuiIconButton-root:hover {
+  background: var(--mui-palette-primary-main, #1976d2);
+  color: #fff;
+}
+
+.responsive-layout-root.dark .sidebar-theme-toggle .MuiIconButton-root:hover {
+  background: #1976d2;
+  color: #fff;
+}
+
+.sidebar-theme-toggle .sidebar-theme-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--mui-palette-text-secondary, #7b809a);
+}
+
+.responsive-layout-root.dark .sidebar-theme-toggle .sidebar-theme-label {
+  color: #bfc8db;
+}
+
+@media (max-width: 900px) {
+  .responsive-layout-root.dark .sidebar-root {
+    background: #111c44 !important;
+    color: #fff;
+  }
+  .sidebar-root {
+    min-width: 0;
+    max-width: 100vw;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .sidebar-logo {
+    padding: 1.2rem 0 1rem 0;
+  }
+
+  .sidebar-nav-link {
+    padding: 0.7rem 1.2rem 0.7rem 1.2rem;
+    font-size: 1rem;
+  }
+
+  .responsive-layout-root.dark .MuiDrawer-paper,
+  .responsive-layout-root.dark .sidebar-root {
+    background: #111c44 !important;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidebar-mobile-appbar {
+    display: block;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .responsive-layout-main {
+    padding-top: 56px;
+  }
+}
